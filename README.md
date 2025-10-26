@@ -3,6 +3,10 @@
 Prosta gra klasyczna typu snake, napisana w Pythonie (z użyciem biblioteki Pygame).  
 Projekt stworzony w celach edukacyjnych.  
 Gra posiada system punktacji oraz zapis najlepszego wyniku.  
+
+![Zdjęcie menu gry](1.png)
+
+![Zdjęcie gry](2.png)
   
   Struktura projektu:  
 Tetris/  
