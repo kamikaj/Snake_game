@@ -1,24 +1,31 @@
-#  Snake  
-  
-Prosta gra klasyczna typu snake, napisana w Pythonie (z użyciem biblioteki Pygame).  
-Projekt stworzony w celach edukacyjnych.  
-Gra posiada system punktacji oraz zapis najlepszego wyniku.  
+# Snake
 
-![Zdjęcie menu gry](pictures/1.png)
+A simple implementation of the classic **Snake** game, built with Python and the **Pygame** library.
 
-![Zdjęcie gry](pictures/2.png)
-  
-  Struktura projektu:  
-Tetris/  
-│  
-├── game.py (kod gry)  
-├── resources/  
-│   ├── data/  
-│   │    ├── highscore.json (plik przechowujący najwyższy dotychczasowy wynik)  
-│   ├── score/  
-│   ├── screen/ (folder na tło gry)  
-│   └── music/ (folder z muzyką)  
-│  
-└── README.md  
-  
-Autor: kamikaj
+This project was developed for educational purposes to practice game development concepts. It features a scoring system and persistent high-score tracking to keep the gameplay engaging.
+
+## Screenshots
+
+![Game Menu](pictures/1.png)
+
+![Gameplay](pictures/2.png)
+
+---
+
+## Project Structure
+
+The project is structured as follows:
+
+```text
+Snake/
+│
+├── game.py            # Main game logic and loop
+├── resources/
+│   ├── data/
+│   │   └── highscore.json  # Stores the all-time high score
+│   ├── score/         # Assets related to scoring display
+│   ├── screen/        # Background images and UI screens
+│   └── music/         # Background music and sound effects
+└── README.md
+```
+Author: kamikaj
